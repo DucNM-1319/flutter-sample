@@ -40,7 +40,7 @@ dependencies:
   json_annotation: ^4.4.0
   cached_network_image: ^3.2.0
   syncfusion_flutter_gauges: ^20.1.51
-  riverpod: ^1.0.3
+  hooks_riverpod: ^1.0.3
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,10 @@
 import 'package:ducnm_flutter_sample1/screens/popularmovies/popular_movies.dart';
 import 'package:ducnm_flutter_sample1/screens/signinsns/signin_sns.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ProviderScope(child: MyApp()) );
 }
 
 class MyApp extends StatelessWidget {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const PopularMovieScreen(),
+      home: PopularMovieScreen(),
     );
   }
 }
