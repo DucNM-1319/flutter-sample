@@ -1,3 +1,4 @@
+import 'package:ducnm_flutter_sample1/screens/popularmovies/popular_movies.dart';
 import 'package:ducnm_flutter_sample1/screens/signinsns/signin_sns.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SignInSNS(),
+      home: const PopularMovieScreen(),
     );
   }
 }
